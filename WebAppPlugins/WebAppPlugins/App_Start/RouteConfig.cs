@@ -16,7 +16,8 @@ namespace WebAppPlugins
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "ValidatePlugins", action = "TestView", area = "Plugins", id = UrlParameter.Optional },
+                namespaces: new string[] { "WebAppPlugins.Areas.Plugins.Controllers" }
             );
         }
     }

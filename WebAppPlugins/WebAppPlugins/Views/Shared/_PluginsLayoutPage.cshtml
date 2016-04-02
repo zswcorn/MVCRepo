@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>插件展示系统</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="container-fluid">
+        @{Html.RenderPartial("_PluginsHeader"); }
+        <div class="row">
+            <div class="col-md-2">
+                @{Html.RenderPartial("_PluginsMenu"); }
+            </div>
+            <div class="col-md-10">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+@Scripts.Render("~/bundles/jquery");
+@Scripts.Render("~/bundles/bootstrap");
+</html>
