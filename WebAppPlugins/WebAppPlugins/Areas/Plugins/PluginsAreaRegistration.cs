@@ -16,9 +16,8 @@ namespace WebAppPlugins.Areas.Plugins
         {
             context.MapRoute(
                 "Plugins_default",
-                "Plugins/{controller}/{action}/{id}",//"",
-                //new { action = "TestView", id = UrlParameter.Optional }
-                new { controller = "ValidatePlugins", action = "TestView", id = UrlParameter.Optional },
+                "Plugins/{controller}/{action}/{id}",
+                new { controller = "ValidatePlugins", action = "PluginsHome", area = "Plugins", id = UrlParameter.Optional },
                 new string[] { "WebAppPlugins.Areas.Plugins.Controllers" }
             );
         }

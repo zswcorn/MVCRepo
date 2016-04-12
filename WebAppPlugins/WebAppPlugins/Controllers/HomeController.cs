@@ -10,7 +10,7 @@ namespace WebAppPlugins.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("PluginsHome", "ValidatePlugins", new { area = "Plugins" });
         }
 
         public ActionResult About()
