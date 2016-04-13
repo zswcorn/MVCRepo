@@ -217,6 +217,7 @@
     <Content Include="Areas\Admin\Views\Shared\_AdminLayoutPage.cshtml" />
     <None Include="Properties\PublishProfiles\WebAppPluginsPublish.pubxml" />
     <None Include="Scripts\jquery-1.12.2.intellisense.js" />
+    <Content Include="Scripts\Common\PluginsLayout.js" />
     <Content Include="Scripts\jquery-1.12.2.js" />
     <Content Include="Scripts\jquery-1.12.2.min.js" />
     <Content Include="Scripts\jquery-1.12.2.min.map" />
@@ -273,6 +274,8 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Plugins\Models\" />
+    <Folder Include="Scripts\Admin\" />
+    <Folder Include="Scripts\Plugins\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

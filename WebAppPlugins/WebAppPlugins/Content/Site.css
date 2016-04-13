@@ -22,3 +22,13 @@ select,
 textarea {
     max-width: 280px;
 }
+/*Set the Menu Styles*/
+div.leftMenu{
+    background-color:lightgrey;
+    min-height:500px;
+    height:100%;
+}
+ul:hover,
+li:hover{
+    cursor:pointer;
+}
