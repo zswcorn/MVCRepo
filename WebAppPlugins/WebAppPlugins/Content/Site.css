@@ -1,13 +1,17 @@
-﻿body {
-    padding-top: 10px;
-    padding-bottom: 20px;
+﻿html{
+    height:100%;
+    overflow-y:hidden;
+}
+body {
+    height:100%;
+    overflow-y:hidden;
 }
 
 /* Set padding to keep content from hitting the edges */
-.body-content {
+/*.body-content {
     padding-left: 15px;
     padding-right: 15px;
-}
+}*/
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -27,8 +31,22 @@ div.leftMenu{
     background-color:lightgrey;
     min-height:500px;
     height:100%;
+    overflow-y:hidden;
 }
 ul:hover,
 li:hover{
     cursor:pointer;
+}
+/*Set Head Row & Content Row*/
+.headRow{
+    height:10%;
+}
+.contentRow{
+    height:90%;
+}
+/*Set The Container-fluid*/
+.container-fluid{
+    height:100%;
+    min-height:100%;
+    overflow-y:hidden;
 }

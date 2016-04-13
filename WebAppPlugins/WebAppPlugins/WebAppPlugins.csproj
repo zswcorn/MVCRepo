@@ -215,6 +215,7 @@
     <Content Include="Areas\Admin\Views\Shared\_AdminMenu.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_AdminHeader.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_AdminLayoutPage.cshtml" />
+    <Content Include="Areas\Plugins\Views\ValidatePlugins\DateTimePicker.cshtml" />
     <None Include="Properties\PublishProfiles\WebAppPluginsPublish.pubxml" />
     <None Include="Scripts\jquery-1.12.2.intellisense.js" />
     <Content Include="Scripts\Common\PluginsLayout.js" />
