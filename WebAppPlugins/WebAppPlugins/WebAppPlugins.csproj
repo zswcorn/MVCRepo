@@ -228,6 +228,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Plugins\DateTimePicker.js" />
+    <Content Include="Scripts\Plugins\jquery-plugin-DateTimePicker.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
@@ -276,7 +278,6 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Plugins\Models\" />
     <Folder Include="Scripts\Admin\" />
-    <Folder Include="Scripts\Plugins\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
